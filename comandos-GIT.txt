@@ -1,9 +1,9 @@
-Comandos git
-/>git init
-/>git add .
-/>git commit -m "mensaje"
-/>git remote add origin https://github.com/emaravi/expert2508.git
-/>git push -u origin master
+Instalar:
+https://git-scm.com/download/win
 
-//para refrescar los datos del MS
-[POST]localhost:8005/actuator/refresh  
+Comandos git
+>git init  --> Una sola vez la primera
+>git add . --> Cada cambio
+>git commit -m "mensaje"  --> Graba los cambios
+>git remote add origin https://github.com/Ercare/fs-102023.git --> Una sola vez cada vez que definas tu repo
+>git push -u origin master  --> Actualiza el repo remoto
